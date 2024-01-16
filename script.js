@@ -31,7 +31,6 @@ function characterPrompts() {    // Initial prompts to allow user to choose the 
     characterPrompts();
     }
   }
-characterPrompts();
 
 function passwordLengthPrompt() {   // Asks user to input desired password length; Re-prompts if invalid choices are given
   passwordLength = window.prompt("Input password length (8-128 characters).");
@@ -43,9 +42,11 @@ function passwordLengthPrompt() {   // Asks user to input desired password lengt
     passwordLengthPrompt();
   }
 }
-passwordLengthPrompt();
 
 function compilePasswordArray() {   // Compiles list of possible characters based on the prompt choices
+
+  passwordArray = [""];
+  
   if (lowerPW == true) {
     passwordArray = passwordArray.concat(lowerPWArray);
   }
@@ -60,10 +61,13 @@ function compilePasswordArray() {   // Compiles list of possible characters base
   }
   passwordArray.shift()
 }
-compilePasswordArray();
 
 function writePassword() {
   
+  characterPrompts();
+  passwordLengthPrompt();
+  compilePasswordArray();
+
   function generatePassword() {     // Clears previous password and then randomly generates each character based on the possible choices from the prompts, up to the desired password length
     password = "";
     for (var i = 0; i < passwordLength; i++) {
