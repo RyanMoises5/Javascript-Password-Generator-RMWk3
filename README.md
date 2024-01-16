@@ -34,7 +34,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-## Mock-Up
+## URLs and Images
 
 The following link is the student's URL to the completed assignment:
 (https://ryanmoises5.github.io/Javascript-Password-Generator-RMWk3/)
