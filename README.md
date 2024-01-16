@@ -37,11 +37,13 @@ THEN the password is either displayed in an alert or written to the page
 ## Mock-Up
 
 The following link is the student's URL to the completed assignment:
-(https://ryanmoises5.github.io/Horiseon-Refactor-RMwk1/)
+(https://ryanmoises5.github.io/Javascript-Password-Generator-RMWk3/)
+
+The following link is the Github repository where the associated files are located:
+(https://github.com/RyanMoises5/Javascript-Password-Generator-RMWk3)
 
 The following image shows the web application's appearance and functionality:
-
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/HoriseonRMwk1Screenshot.JPG)
+(./Assets/03-javascript-homework-demo.png)
 
 ---
 2024 edX Boot Camps
