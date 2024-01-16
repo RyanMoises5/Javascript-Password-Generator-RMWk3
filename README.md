@@ -43,7 +43,8 @@ The following link is the Github repository where the associated files are locat
 (https://github.com/RyanMoises5/Javascript-Password-Generator-RMWk3)
 
 The following image shows the web application's appearance and functionality:
-(./Assets/03-javascript-homework-demo.png)
+
+![Password Generator layout](./Assets/03-javascript-homework-demo.png)
 
 ---
 2024 edX Boot Camps
